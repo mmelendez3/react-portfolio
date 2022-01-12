@@ -1,0 +1,107 @@
+
+.work-section {
+    background-color: #dbe2e9;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 90px 70px 90px 40px;
+    border-top: 3px solid #df0c0c;
+    
+}
+
+.work-title {
+    width: 20%;
+    border-right: 2px solid #b69d32;
+    font-size: 30px;
+    padding: 90px 10px;
+    margin: 0px 6px;
+    
+}
+
+.work-title h2 {
+    margin: 1px 3px;
+}
+
+main {
+    width: 65%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #dbe2e9;
+    
+  }
+  
+  
+  main h2 {
+    color: #fb3e55;
+    padding: 0 10px 20px;
+    border-bottom: 3px solid #393b4f;
+  }
+  
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px 0 0 50px;
+  }
+
+  .big-flex-item {
+    width: 100%;
+    border-radius: 14px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-image: url("../../assets/images/runbuddy.jpeg");
+    background-size: cover;
+    background-position: top;
+    padding: 20px 0;
+    min-height: 275px;
+    display: flex;
+    
+  }
+  
+  
+  .flex-item {
+    width: 45%;
+    border-radius: 14px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 250px;
+    display: flex;
+    
+  }
+
+  #flex-item2 {
+    background-image: url("../../assets/images/kanye-guess.png");
+    
+  }
+  #flex-item3 {
+    background-image: url("../../assets/images/readme.png");
+    background-position: top;
+    
+  }
+  #flex-item4 {
+    background-image: url("../../assets/images/computer_code.jpg");
+    
+  }
+  #flex-item5 {
+    background-image: url("../../assets/images/mancomputer.jpeg");
+    
+  }
+  
+  
+
+  .big-flex-item span, .flex-item span {
+    margin-top: auto;
+    width: 30%;
+    background-color: #67f83b;
+    color: #f120d6;
+    padding: 10px 5px;
+    text-align: center;
+
+  }

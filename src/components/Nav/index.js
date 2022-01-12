@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css'
 
 function Nav(props) {
 
@@ -9,14 +10,16 @@ function Nav(props) {
     } = props;
 
     return (
-        <header className="flex-row px-1">
-            <h2>
-                <a href="/">Manny</a>
-            </h2>
+        <header>
+            <h1>
+            <a href="">Manny Melendez</a>
+            
+        </h1>
+        
             <nav>
-                <ul className="flex-row">
+                <ul>
                     {sections.map((section) => (
-                        <li className={`mx-2 ${currentSection.name === section.name && 'navActive'}`} key={section.name}>
+                        <li className={`${currentSection.name === section.name && 'navActive'}`} key={section.name}>
                             <span onClick ={() => setCurrentSection(section)}>{section.name}</span>
                         </li>
                     ))}

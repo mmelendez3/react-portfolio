@@ -1,22 +1,43 @@
 import React from 'react';
-import coverImage from "../../assets/cover/header-background.jpg";
+import  './style.css'
+
 
 function About() {
   return (
-    <section className="my-5">
-      <h1 id="about">About Me:</h1>
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
-      <div className="my-2">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-        </p>
-      </div>
+    <section className="hero">
+        <div className="image">
+            <img src="../../assets/images/clonex.jpeg" alt="CloneX avatar"/>
+        </div>
+
+        <div className="hero-subtitle">
+            <p>The mind is not a vessel to be filled but a fire to be kindled.
+            -Plutarch</p>
+        </div>
+        <main class="about-me" id="about-me">
+       
+        <div class="about-title">
+    
+         <h2>About Me</h2>
+
+        </div>
+        
+        <div class="about-info">
+    
+            <p>
+             Hi! I'm Manny, I am a full stack developer and blockchain analyst.  My goal and constant practice is to make the computer bend to my will. I love solving problems and creating beautiful code.  If you need something done I can make something for you.  
+            </p>
+            
+         
+            <p>
+                In the section below I have included some examples of live projects that I have created. Also, feel free to contact me if you have questions about any work or program redesign you may be interested in. My contact info is at the bottom.
+
+         
+            </p>
+
+        </div>
+
+    </main>
+    
     </section>
   );
 }
