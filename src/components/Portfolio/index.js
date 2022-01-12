@@ -10,7 +10,7 @@ function Portfolio() {
         </div>
 
         
-            <main>
+            <main className="work-main">
                 
                 <div className="flex-container">
                   

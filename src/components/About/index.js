@@ -4,6 +4,7 @@ import  './style.css'
 
 function About() {
   return (
+      <React.Fragment>
     <section className="hero">
         <div className="image">
             <img src="../../assets/images/clonex.jpeg" alt="CloneX avatar"/>
@@ -13,15 +14,16 @@ function About() {
             <p>The mind is not a vessel to be filled but a fire to be kindled.
             -Plutarch</p>
         </div>
-        <main class="about-me" id="about-me">
+        </section>
+        <section className="about-me" id="about-me">
        
-        <div class="about-title">
+        <div className="about-title">
     
          <h2>About Me</h2>
 
         </div>
         
-        <div class="about-info">
+        <div className="about-info">
     
             <p>
              Hi! I'm Manny, I am a full stack developer and blockchain analyst.  My goal and constant practice is to make the computer bend to my will. I love solving problems and creating beautiful code.  If you need something done I can make something for you.  
@@ -36,9 +38,10 @@ function About() {
 
         </div>
 
-    </main>
-    
     </section>
+    
+    
+    </React.Fragment>
   );
 }
 
