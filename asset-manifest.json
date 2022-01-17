@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.2d61080a.css",
+    "main.js": "/react-portfolio/static/js/main.6ac13366.js",
+    "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
+    "static/media/readme.png": "/react-portfolio/static/media/readme.fbc0105c1e44da92d4ce.png",
+    "static/media/kanye-guess.png": "/react-portfolio/static/media/kanye-guess.9a9cf6673842fedb55bc.png",
+    "static/media/runbuddy.jpeg": "/react-portfolio/static/media/runbuddy.90e3aac87eec17e4ec1d.jpeg",
+    "static/media/crypto-background.jpeg": "/react-portfolio/static/media/crypto-background.6260ac296e7e25607b07.jpeg",
+    "static/media/budget.png": "/react-portfolio/static/media/budget.07fa055ea8370fe89cda.png",
+    "static/media/clonex.jpeg": "/react-portfolio/static/media/clonex.6976e54e09c7e27358bc.jpeg",
+    "static/media/note_taker.png": "/react-portfolio/static/media/note_taker.9f5e163c174cc3829c66.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.2d61080a.css.map": "/react-portfolio/static/css/main.2d61080a.css.map",
+    "main.6ac13366.js.map": "/react-portfolio/static/js/main.6ac13366.js.map",
+    "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d61080a.css",
+    "static/js/main.6ac13366.js"
+  ]
+}
