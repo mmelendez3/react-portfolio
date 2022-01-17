@@ -27,7 +27,7 @@ function Portfolio() {
                   </div>
                   
                   <div className="flex-item" id="flex-item3">
-                    <a href='https://github.com/Bycicleace/MyBook/'>
+                    <a href=' https://cbc-my-book.herokuapp.com/'>
                     
                     </a>
                   </div>

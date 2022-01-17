@@ -32,7 +32,7 @@ function About() {
             
          
             <p>
-                In the section below I have included some examples of live projects that I have created. Also, feel free to contact me if you have questions about any work or program redesign you may be interested in. My contact info is at the bottom.
+                In the portfolio section I have included some examples of live projects that I have created. Also, feel free to contact me if you have questions about any work or program redesign you may be interested in. In the footer I have included links to my GitHub, LinkedIn and StackOver Flow pages.
 
          
             </p>
