@@ -14,24 +14,34 @@ function Portfolio() {
                 
                 <div className="flex-container">
                   
-                  <div className="big-flex-item" onclick="location.href='https://mmelendez3.github.io/run-buddy/'">
-                    <span>HTML/CSS</span>
+                  <div className="big-flex-item">
+                    <a href='https://mmelendez3.github.io/run-buddy/'>
+                    
+                    </a>
                   </div>
                   
-                  <div className="flex-item" id="flex-item2" onclick="location.href='https://concord511.github.io/Quote-Battle/'">
-                    <span>Kanye Guess Quiz</span>
+                  <div className="flex-item" id="flex-item2">
+                    <a href='https://concord511.github.io/Quote-Battle/'>
+                    
+                    </a>
                   </div>
                   
-                  <div className="flex-item" id="flex-item3" onclick="location.href='https://github.com/Bycicleace/MyBook/'">
-                    <span>MyBook</span>
+                  <div className="flex-item" id="flex-item3">
+                    <a href='https://github.com/Bycicleace/MyBook/'>
+                    
+                    </a>
                   </div>
                   
                   <div className="flex-item" id="flex-item4">
-                    <span>CODE</span>
+                    <a href="https://desolate-wave-53798.herokuapp.com/">
+                    
+                    </a>
                   </div>
                   
                   <div className="flex-item" id="flex-item5">
-                    <span>CODE</span>
+                    <a  href="https://cryptic-sands-45995.herokuapp.com/">
+                    
+                    </a>
                   </div>
                 
                 </div>

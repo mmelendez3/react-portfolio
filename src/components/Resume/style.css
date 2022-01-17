@@ -1,0 +1,26 @@
+.about-me {
+    background-color: #dbe2e9;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 90px 70px 90px 40px;
+    border-top: 3px solid #df0c0c;
+}
+
+.about-title {
+    width: 20%;
+    border-right: 2px solid #b69d32;
+    font-size: 30px;
+    padding: 90px 10px;
+    margin: 0px 6px;
+    
+}
+
+.about-info {
+    width: 65%;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 50px auto;
+    padding: 20px;
+
+}

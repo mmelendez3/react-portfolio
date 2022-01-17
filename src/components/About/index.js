@@ -1,5 +1,6 @@
 import React from 'react';
 import  './style.css'
+import coverImage from '../../assets/images/clonex.jpeg';
 
 
 function About() {
@@ -7,11 +8,11 @@ function About() {
       <React.Fragment>
     <section className="hero">
         <div className="image">
-            <img src="../../assets/images/clonex.jpeg" alt="CloneX avatar"/>
+            <img src={coverImage} alt="CloneX avatar" className="avatar"/>
         </div>
 
         <div className="hero-subtitle">
-            <p>The mind is not a vessel to be filled but a fire to be kindled.
+            <p>The mind is not a vessel to be filled but a fire to be kindled.<br></br>   
             -Plutarch</p>
         </div>
         </section>
