@@ -1,13 +1,3 @@
-// import React from 'react';
-
-// function Contact() {
-//     return(
-//         <p>this is my contact</p>
-//     )
-// }
-
-// export default Contact;
-
 import React, { useState } from 'react';
 import './style.css'
 
